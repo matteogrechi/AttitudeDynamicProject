@@ -1,0 +1,32 @@
+component prova
+% Ideal Capacitor
+% Models an ideal (lossless) capacitor. The output current I is related
+% to the input voltage V by I = C*dV/dt where C is the capacitance.
+
+% Copyright 2008-2017 The MathWorks, Inc.
+
+    nodes
+        p = foundation.electrical.electrical; % +:top
+        n = foundation.electrical.electrical; % -:bottom
+    end
+
+    parameters
+        C = { 1, 'F' }; % Capacitance
+    end
+
+    variables
+        i = { 0, 'A'   }; % Current
+        v = {value = { 0, 'V' }, priority = priority.high}; % Voltage drop
+    end
+
+    branches
+        i : p.i -> n.i; % Through variable i from node p to node n
+    end
+
+    equations
+        assert(C > 0)
+        v == p.v-n.v; % Across variable v from p to n
+        i == C*v.der; % Capacitor equation
+    end
+
+end
