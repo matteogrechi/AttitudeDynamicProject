@@ -45,9 +45,18 @@ Earth_1.atm_scaleHeight.Value = [63.822 71.835 88.667 124.64 181.05 268.00];
 Earth_1.atm_scaleHeight.Unit = 'km';
 
 %% Spacecraft data
+% Initial body frame attitude [ECI]
+Spacecraft_1.initialAttitude = Simulink.Parameter;
+Spacecraft_1.initialAttitude.Value = 1/2*[1 1 -1 1]';
+Spacecraft_1.initialAttitude.Unit = 'none';
+% Initial angular speed [body frame][rad/s]
+Spacecraft_1.initialAngularSpeed = Simulink.Parameter;
+Spacecraft_1.initialAngularSpeed.Value = [0 0 7.478/7128.137]';
+Spacecraft_1.initialAngularSpeed.Unit = 'rad/s';
+
 % Inertia in the main body reference frame [ kg*m² ]
 Spacecraft_1.baricentricInertia = Simulink.Parameter;
-Spacecraft_1.baricentricInertia.Value = [0.251;0.916;2.009];
+Spacecraft_1.baricentricInertia.Value = [8.009;8.009;1.251];
 Spacecraft_1.baricentricInertia.Unit = 'kg*m^2';
 % Distance from G of the geometric center of the s/c [ m ]
 Spacecraft_1.geometricCenter = Simulink.Parameter;
@@ -108,6 +117,12 @@ Spacecraft_1.surfaces_Cd.Value = [ 1,...
                                    1 ];
 Spacecraft_1.surfaces_Cd.Unit = '1';
 
+%% Sensors data
+Sensors_1.sunSensorSamplingFreq = Simulink.Parameter;
+Sensors_1.sunSensorSamplingFreq.Value = 1;
+Sensors_1.sunSensorSamplingFreq.Unit = 'Hz';
+
+
 %% Simulink useless complications for creating a struct
 % Look at: https://mathworks.com/help/simulink/ug/using-structure-parameters.html
 % in the section "Combine Existing Parameter Objects Into a Structure"
@@ -140,6 +155,14 @@ SpacecraftDT = putBackPhisicalUnits(SpacecraftDT, Spacecraft_1);
 Spacecraft.StorageClass = 'ExportedGlobal';
 clear slBus1
 
+% Sensors bus
+Sensors = createSimulinkBus(Sensors_1);
+SensorsDT = copy(slBus1);
+Sensors.DataType = 'Bus: SensorsDT';
+
+SensorsDT = putBackPhisicalUnits(SensorsDT, Sensors_1);
+Sensors.StorageClass = 'ExportedGlobal';
+clear slBus1
 
 % To avoid boilerplate code
 function Var = createSimulinkBus(Var_1)
