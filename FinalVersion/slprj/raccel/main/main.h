@@ -30,10 +30,10 @@
 #include "rtGetInf.h"
 #include "rt_nonfinite.h"
 #define MODEL_NAME main
-#define NSAMPLE_TIMES (11) 
+#define NSAMPLE_TIMES (14) 
 #define NINPUTS (0)       
 #define NOUTPUTS (0)     
-#define NBLOCKIO (203) 
+#define NBLOCKIO (211) 
 #define NUM_ZC_EVENTS (0) 
 #ifndef NCSTATES
 #define NCSTATES (14)   
@@ -62,54 +62,58 @@ mkpovvsjoj [ 2 ] ; real_T hiigrn3uvx [ 3 ] ; real_T nyimkzd5hq [ 2 ] ; real_T
 fllsexxjfy [ 3 ] ; real_T cddswdr3cl [ 2 ] ; real_T obyw5bjsqt [ 3 ] ; real_T
 a2f0ypmsuy [ 2 ] ; real_T fp4h0u1qqq [ 3 ] ; real_T ch2k5w2dnh [ 2 ] ; real_T
 fe3icz0afg [ 3 ] ; real_T ipb4qp4laq [ 2 ] ; real_T g4hdycezvh [ 3 ] ; real_T
-j0ldaz4thu [ 3 ] ; real_T hpbrpn0y2j [ 3 ] ; real_T al2bqvraok [ 3 ] ; real_T
-ggrj4lwkdq ; real_T jjuwpyarp5 ; real_T nyoyhdwzhr ; real_T mfc3g102pw [ 3 ]
-; real_T jg5xwtwjpe [ 3 ] ; real_T bwu3hh5pg3 [ 4 ] ; real_T iunb01rvwp ;
-real_T hnvlhc15na [ 3 ] ; real_T gbu5abs2sz [ 3 ] ; real_T cbgxsqe0kg [ 3 ] ;
-real_T kwx5xj2ngl ; real_T ngj1laz0jn ; real_T gnzoqn2dsl [ 3 ] ; real_T
-pguc21lp1k [ 3 ] ; real_T gnhb3isuhw ; real_T isiqvhsvds ; real_T an1hct1vdk
-[ 9 ] ; real_T jgyobyjg0x ; real_T amepcbkksg [ 3 ] ; real_T fi1wde2gl2 [ 3 ]
-; real_T culrexdnyf ; real_T ambhfazf2y [ 3 ] ; real_T lx0bv1yu1i [ 3 ] ;
-real_T a55nsryplm [ 4 ] ; real_T jq2aut2ijb [ 3 ] ; real_T mvnud1uzgl ;
-real_T hckf2ailv0 ; real_T bfud51xipp ; real_T kp1mzqwbu3 ; real_T mrzwmqiqje
-; real_T kyx4elghw5 ; real_T ightd03wbw ; real_T boco0ydrhx ; real_T
-kgibrayejc ; real_T klod4yztvz ; real_T gr0fttz1x3 ; real_T lj2hsiefmb ;
-real_T pqwrcdv51y ; real_T gkj1c4ecpo ; real_T ltnksa0t1k ; real_T ebby2e0eey
-; real_T kc5uinuva1 ; real_T olg5gqva4k ; real_T ny5fqojp01 ; real_T
-mwkxuoztcf ; real_T g42bdhp2mr ; real_T gegkjzomxm ; real_T kd1qxjhyrr ;
-real_T pgs5royztd ; real_T eqlu1laly1 ; real_T c4imsujsyj ; real_T ewg4gsarwm
-; real_T myxilkpyto ; real_T nfvbvcsgaf ; real_T jyoiaqgash ; real_T
-am2ydxy3tg ; real_T aayx0clngf ; real_T imjovcvzmj ; real_T fhwu2rpyxm ;
-real_T db5wedrkq4 ; real_T bzsae5g150 ; real_T fxqr3to5iu ; real_T b3deffzvww
-; real_T jzcgup51f2 ; real_T aqvhjylunl ; real_T pmy5icug2k ; real_T
-pxdeyipxtr ; real_T cepjmd5gi4 ; real_T a3l2vrrg5t ; real_T pmjdaqsrgv ;
-real_T ivk2auaags ; real_T hmdscxhrrq ; real_T ks0a4vmt2y ; real_T fuxsypdw5b
-; real_T ibibxo1hc5 ; real_T e0g1epmzzc ; real_T pvujvtillf ; real_T
-bralaspqvj ; real_T mf042bbyls ; real_T pvvuqzjxh5 ; real_T jkdvlxhrn3 ;
-real_T nd0vnjuzbo ; real_T ke44k2nvd3 ; real_T bvbwt2i4ty ; real_T bckqvwne10
-; real_T icooi3vgxr ; real_T nhfh5pwjge ; real_T ekeiqfqt15 ; real_T
-fu44uyydbm ; real_T nrvyadhccn ; real_T kif43ukmno ; real_T lvap1gibsy ;
-real_T fjgl0ynn23 ; real_T dlywnze0gh ; real_T evt22h0udz ; real_T hr5yavkh2g
-; real_T a3453wdy3h ; real_T ln15xtukoj ; real_T ofev2a4bu4 ; real_T
-iak2iehb01 ; real_T gy5dnmc0o2 ; real_T bemlv143br ; real_T hsxdwr2kap ;
-real_T cikadflncr ; real_T d55wbumkta ; real_T ftiqxo4eic ; real_T dg3licanvf
-; real_T fd0i4zg4gl ; real_T nmsyyhec3k ; real_T akaurxf5cn ; real_T
-fjb4t2g0di ; real_T eps1xh200d ; real_T dbdvnfbtan ; real_T nqoad4oagc ;
-real_T ornbl4mfau ; real_T gq23czohqi ; real_T gree3bakbj ; real_T m13nwgsfs4
-; real_T brdq13y0qd ; real_T h3xp3qlim0 ; real_T b1pqf2pbpp ; real_T
-ek204bmiea ; real_T aqwdecxidu ; real_T daikka42e3 ; real_T ga4ycdonne ;
-real_T dpkcgsd4ym ; real_T pihfnbloym ; real_T a5drqsjnex ; real_T ndlxlyobzb
-; real_T h5gslldsar ; real_T c23uk112gn ; real_T eq1sfn3btk ; real_T
-jhqy0zwmu3 ; real_T iuke2eyfra ; real_T bw33cb1smq ; real_T kwmlekgm0w ;
-real_T fjxh2v44zo ; real_T ei2iplcloo ; real_T dpw0lpwtco ; real_T i01jbvlzhi
-; real_T ksqsb0wny4 ; real_T d224533rgj ; real_T d0h2bkxm2a ; real_T
-jpbug4sdyr ; real_T llcjil2ppz ; real_T kp0ottklv2 ; real_T d4h0eb221l ;
-real_T ajeydhy34x ; real_T kuqlbidad1 [ 3 ] ; real_T kncngnrvsh [ 7 ] ;
-real_T du4yqg3svc [ 3 ] ; real_T j5pfxwzlry [ 3 ] ; real_T m4a4e0kncl [ 3 ] ;
-real_T inxuhwzyyf [ 3 ] ; real_T b51zos5ddd ; real_T mz4bssc4xj ; real_T
-hi5t21up55 ; boolean_T nh40mtprpn ; boolean_T niydxw3dug ; g3zz1gnhke
-ik12ax5qrt ; g3zz1gnhke cuglwsdmbh ; } o2y45zbt2m ; typedef struct { real_T
-iwulztso32 [ 3 ] ; real_T buggjk4l1n [ 49 ] ; real_T j3ergpk3vu [ 7 ] ;
+c1cfxe21zn [ 3 ] ; real_T op4p3vooky [ 3 ] ; real_T px02m2ansm ; real_T
+lzgno0c45u ; real_T frbnnz0j20 ; real_T ftjowoqghq ; real_T psapwntjo4 ;
+real_T pjlzlhabnw ; real_T fkulvx00jr [ 3 ] ; real_T g20nolxhoz [ 3 ] ;
+real_T al2bqvraok [ 3 ] ; real_T ggrj4lwkdq ; real_T jjuwpyarp5 ; real_T
+nyoyhdwzhr ; real_T mfc3g102pw [ 3 ] ; real_T jg5xwtwjpe [ 3 ] ; real_T
+bwu3hh5pg3 [ 4 ] ; real_T iunb01rvwp ; real_T hnvlhc15na [ 3 ] ; real_T
+gbu5abs2sz [ 3 ] ; real_T cbgxsqe0kg [ 3 ] ; real_T kwx5xj2ngl ; real_T
+ngj1laz0jn ; real_T gnzoqn2dsl [ 3 ] ; real_T pguc21lp1k [ 3 ] ; real_T
+gnhb3isuhw ; real_T isiqvhsvds ; real_T an1hct1vdk [ 9 ] ; real_T jgyobyjg0x
+; real_T amepcbkksg [ 3 ] ; real_T fi1wde2gl2 [ 3 ] ; real_T culrexdnyf ;
+real_T ambhfazf2y [ 3 ] ; real_T lx0bv1yu1i [ 3 ] ; real_T a55nsryplm [ 4 ] ;
+real_T jq2aut2ijb [ 3 ] ; real_T mvnud1uzgl ; real_T hckf2ailv0 ; real_T
+bfud51xipp ; real_T kp1mzqwbu3 ; real_T mrzwmqiqje ; real_T kyx4elghw5 ;
+real_T ightd03wbw ; real_T boco0ydrhx ; real_T kgibrayejc ; real_T klod4yztvz
+; real_T gr0fttz1x3 ; real_T lj2hsiefmb ; real_T pqwrcdv51y ; real_T
+gkj1c4ecpo ; real_T ltnksa0t1k ; real_T ebby2e0eey ; real_T kc5uinuva1 ;
+real_T olg5gqva4k ; real_T ny5fqojp01 ; real_T mwkxuoztcf ; real_T g42bdhp2mr
+; real_T gegkjzomxm ; real_T kd1qxjhyrr ; real_T pgs5royztd ; real_T
+eqlu1laly1 ; real_T c4imsujsyj ; real_T ewg4gsarwm ; real_T myxilkpyto ;
+real_T nfvbvcsgaf ; real_T jyoiaqgash ; real_T am2ydxy3tg ; real_T aayx0clngf
+; real_T imjovcvzmj ; real_T fhwu2rpyxm ; real_T db5wedrkq4 ; real_T
+bzsae5g150 ; real_T fxqr3to5iu ; real_T b3deffzvww ; real_T jzcgup51f2 ;
+real_T aqvhjylunl ; real_T pmy5icug2k ; real_T pxdeyipxtr ; real_T cepjmd5gi4
+; real_T a3l2vrrg5t ; real_T pmjdaqsrgv ; real_T ivk2auaags ; real_T
+hmdscxhrrq ; real_T ks0a4vmt2y ; real_T fuxsypdw5b ; real_T ibibxo1hc5 ;
+real_T e0g1epmzzc ; real_T pvujvtillf ; real_T bralaspqvj ; real_T mf042bbyls
+; real_T pvvuqzjxh5 ; real_T jkdvlxhrn3 ; real_T nd0vnjuzbo ; real_T
+ke44k2nvd3 ; real_T bvbwt2i4ty ; real_T bckqvwne10 ; real_T icooi3vgxr ;
+real_T nhfh5pwjge ; real_T ekeiqfqt15 ; real_T fu44uyydbm ; real_T nrvyadhccn
+; real_T kif43ukmno ; real_T lvap1gibsy ; real_T fjgl0ynn23 ; real_T
+dlywnze0gh ; real_T evt22h0udz ; real_T hr5yavkh2g ; real_T a3453wdy3h ;
+real_T ln15xtukoj ; real_T ofev2a4bu4 ; real_T iak2iehb01 ; real_T gy5dnmc0o2
+; real_T bemlv143br ; real_T hsxdwr2kap ; real_T cikadflncr ; real_T
+d55wbumkta ; real_T ftiqxo4eic ; real_T dg3licanvf ; real_T fd0i4zg4gl ;
+real_T nmsyyhec3k ; real_T akaurxf5cn ; real_T fjb4t2g0di ; real_T eps1xh200d
+; real_T dbdvnfbtan ; real_T nqoad4oagc ; real_T ornbl4mfau ; real_T
+gq23czohqi ; real_T gree3bakbj ; real_T m13nwgsfs4 ; real_T brdq13y0qd ;
+real_T h3xp3qlim0 ; real_T b1pqf2pbpp ; real_T ek204bmiea ; real_T aqwdecxidu
+; real_T daikka42e3 ; real_T ga4ycdonne ; real_T dpkcgsd4ym ; real_T
+pihfnbloym ; real_T a5drqsjnex ; real_T ndlxlyobzb ; real_T h5gslldsar ;
+real_T c23uk112gn ; real_T eq1sfn3btk ; real_T jhqy0zwmu3 ; real_T iuke2eyfra
+; real_T bw33cb1smq ; real_T kwmlekgm0w ; real_T fjxh2v44zo ; real_T
+ei2iplcloo ; real_T dpw0lpwtco ; real_T i01jbvlzhi ; real_T ksqsb0wny4 ;
+real_T d224533rgj ; real_T d0h2bkxm2a ; real_T jpbug4sdyr ; real_T llcjil2ppz
+; real_T kp0ottklv2 ; real_T d4h0eb221l ; real_T ajeydhy34x ; real_T
+kuqlbidad1 [ 3 ] ; real_T kncngnrvsh [ 7 ] ; real_T du4yqg3svc [ 3 ] ; real_T
+j5pfxwzlry [ 3 ] ; real_T m4a4e0kncl [ 3 ] ; real_T inxuhwzyyf [ 3 ] ; real_T
+b51zos5ddd ; real_T mz4bssc4xj ; real_T hi5t21up55 ; boolean_T nh40mtprpn ;
+boolean_T niydxw3dug ; g3zz1gnhke ik12ax5qrt ; g3zz1gnhke cuglwsdmbh ; }
+o2y45zbt2m ; typedef struct { real_T iwulztso32 [ 3 ] ; real_T epbwbvrls5 ;
+real_T fytmukko2d ; real_T curihjwvdq ; real_T oumjhalsqc ; real_T o2yvavvn5c
+; real_T hz2n5lmwzt ; real_T buggjk4l1n [ 49 ] ; real_T j3ergpk3vu [ 7 ] ;
 struct { void * LoggedData ; } mj2w2pdzvf ; struct { void * LoggedData [ 2 ]
 ; } clkgymr5be ; struct { void * LoggedData ; } ctxiimp00u ; struct { void *
 LoggedData ; } eyype4k5ql ; struct { void * LoggedData ; } iuw5nsctvf ;
@@ -142,6 +146,10 @@ int8_T cbsmbddbag ; int8_T bnzh2jzuy5 ; int8_T jkjkrdx1hk ; int8_T o0pf4uvatt
 pwomc1kiz3 ; int8_T h5fod2fj2q ; int8_T hnbwguuonj ; int8_T fimtx0wf43 ;
 int8_T jxtww5tjxt ; int8_T as5m3dr43z ; int8_T gtaj4wmjuq ; int8_T a0tdfwofzg
 ; int8_T ikwlyg3xde ; int8_T nw1rjo5a2w ; int8_T kg1shmc2lb ; boolean_T
+e2pe11pwxn ; boolean_T opg1lhdczb ; boolean_T jiqhomoo0v ; boolean_T
+jmjdutrgwi ; boolean_T gxxnmirgwt ; boolean_T ayulg3mnvk ; boolean_T
+cozmdzu0w1 ; boolean_T cnj1jumxqg ; boolean_T i5keywnlob ; boolean_T
+ae5papqlus ; boolean_T mp3yltewxi ; boolean_T brmqgwecvy ; boolean_T
 ozme2zffq1 ; boolean_T pqxjs5shcl ; boolean_T jydhsrazby ; boolean_T
 nfvyn45pdm ; boolean_T cjwjqcd1zs ; boolean_T m2abnapxna ; boolean_T
 ejudse0oqw ; mcbsajulppp p11kqkd5tq ; } hrxu5rhe3a ; typedef struct { real_T
@@ -170,10 +178,11 @@ real_T RandomSource1_MeanVal_jxhxrhz3me ; real_T
 RandomSource1_MeanVal_bvk35h21mf ; real_T RandomSource1_MeanVal_cgugych5h2 ;
 real_T RandomSource1_MeanVal_d4idhl1tz1 ; real_T
 RandomSource1_MeanVal_n5f3r1zvmv ; real_T RandomSource1_MeanVal_kfynkp2waz ;
-real_T RandomSource1_MeanVal_d1pxk3satq ; real_T
-DirectionCosineMatrixtoQuaternions_action ; real_T NormalizeVector_maxzero ;
-real_T NormalizeVector_maxzero_cdhvq0rirk ; real_T
-NormalizeVector_maxzero_b4q4mcfdki ; real_T
+real_T RandomSource1_MeanVal_d1pxk3satq ; real_T PWM_Period ; real_T
+PWM1_Period ; real_T PWM2_Period ; real_T PWM3_Period ; real_T PWM4_Period ;
+real_T PWM5_Period ; real_T DirectionCosineMatrixtoQuaternions_action ;
+real_T NormalizeVector_maxzero ; real_T NormalizeVector_maxzero_cdhvq0rirk ;
+real_T NormalizeVector_maxzero_b4q4mcfdki ; real_T
 NormalizeVector_maxzero_h2g0i450y0 ; real_T
 NormalizeVector_maxzero_j4hegkg3gk ; real_T
 NormalizeVector_maxzero_g4yscxcbyk ; real_T
@@ -235,6 +244,8 @@ RandomSource1_VarianceRTP_dvuf3vyvl4 ; real_T Saturation_UpperSat_mq4hmkw4m2
 RandomSource1_VarianceRTP_cg3jlumacb ; real_T Saturation_UpperSat_kiybxhvwme
 ; real_T Saturation_LowerSat_lktmm4bxfn ; real_T R1_Value [ 4 ] ; real_T
 Gain_Gain_bi5br4oxvh ; real_T Gain1_Gain_cftaqvkxoi ; real_T
+Gain2_Gain_lwwetqjf5s ; real_T Gain_Gain_eb5rzn1cjw ; real_T
+Gain1_Gain_i4m04mlldw ; real_T Gain3_Gain_b5qqmritsc ; real_T
 Gain_Gain_cf5hb10y5x ; real_T Gain2_Gain_n32pjfxnui ; real_T
 Gain1_Gain_gwlrw1w2b3 ; real_T Gain_Gain_efnax0y1dx ; real_T
 Gain1_Gain_ddeccjfmea ; real_T Gain2_Gain_g2ebct4dqc ; real_T
